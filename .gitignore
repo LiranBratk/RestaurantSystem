@@ -1,0 +1,75 @@
+# ============================
+# 🚀 React Native Git Ignore
+# ============================
+
+# 🔹 Node.js dependencies
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# 🔹 React Native/Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# 🔹 Native files
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# 🔹 Metro Bundler
+.metro-health-check*
+
+# 🔹 iOS-specific (NO Flutter)
+ios/Pods/
+ios/.symlinks/
+ios/build/
+
+# 🔹 Android-specific
+android/.cxx/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+android/build/
+
+# 🔹 TypeScript
+*.tsbuildinfo
+
+# 🔹 Environment files
+.env*
+.env*.local
+
+# 🔹 Debugging logs
+*.log
+*.swp
+*.class
+*.pyc
+migrate_working_dir/
+
+# 🔹 macOS system files
+.DS_Store
+*.pem
+
+# 🔹 VS Code settings (optional)
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+.prettierrc
+
+# 🔹 IntelliJ / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 🔹 Miscellaneous
+.atom/
+.buildlog/
+.history
+.svn/
