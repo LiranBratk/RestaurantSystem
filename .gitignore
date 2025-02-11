@@ -1,78 +1,75 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
+# ============================
+# 🚀 React Native Git Ignore
+# ============================
 
-# IntelliJ-related files
-*.iml
-*.ipr
-*.iws
-.idea/
+# 🔹 Node.js dependencies
+node_modules/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# 🔹 React Native/Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
 
-# Flutter/Dart/Pub related
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-build/
-**/build/
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# 🔹 Native files
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
 
-# iOS-specific files
-ios/Flutter/Flutter.framework/
-ios/Flutter/App.framework/
-ios/Flutter/Generated.xcconfig
-ios/Flutter/flutter_export_environment.sh
+# 🔹 Metro Bundler
+.metro-health-check*
+
+# 🔹 iOS-specific (NO Flutter)
 ios/Pods/
 ios/.symlinks/
-ios/Flutter/.last_build_id
+ios/build/
 
-# Android-specific files
+# 🔹 Android-specific
 android/.cxx/
 android/local.properties
 android/app/debug/
 android/app/profile/
 android/app/release/
+android/build/
 
-# Web-specific files
-web/.dart_tool/
-web/.js_build/
-web/manifest.json
-web/worker.js
+# 🔹 TypeScript
+*.tsbuildinfo
 
-# macOS-specific files
-macos/Flutter/ephemeral/
-macos/Flutter/Flutter.framework/
-macos/Pods/
-macos/.generated/
-macos/Runner.xcworkspace/
+# 🔹 Environment files
+.env*
+.env*.local
 
-# Windows-specific files
-windows/generated_plugin_registrant.*
+# 🔹 Debugging logs
+*.log
+*.swp
+*.class
+*.pyc
+migrate_working_dir/
 
-# Linux-specific files
-linux/generated_plugin_registrant.*
+# 🔹 macOS system files
+.DS_Store
+*.pem
 
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
+# 🔹 VS Code settings (optional)
 .vscode/c_cpp_properties.json
 .vscode/launch.json
 .vscode/settings.json
+.prettierrc
+
+# 🔹 IntelliJ / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 🔹 Miscellaneous
+.atom/
+.buildlog/
+.history
+.svn/
