@@ -22,8 +22,8 @@ const styles = StyleSheet.create({
     flex: 0.6,
     borderBottomWidth: 1,
     borderBottomColor: "white",
-    flexDirection: "row", // Aligns items in a row
-    alignItems: "center", // Centers items vertically
+    flexDirection: "row",
+    alignItems: "center",
     paddingLeft: "5%",
     columnGap: "1.5%",
     minHeight: RFPercentage(2),
